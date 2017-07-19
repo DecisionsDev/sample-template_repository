@@ -4,7 +4,7 @@
 ## Features
 - describe
 
-## Configuration
+## Requirements
 - describe
 
 ## Contributing
@@ -19,3 +19,6 @@ We welcome contributions following [our guidelines](CONTRIBUTING.md).
 
 # License
 The Dockerfiles and associated scripts found in this project are licensed under the [Apache License 2.0](LICENSE).
+
+# Notice
+© Copyright IBM Corporation 2017.
