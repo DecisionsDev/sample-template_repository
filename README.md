@@ -14,7 +14,7 @@
 - describe
 
 # Issues and contributions
-For issues relating specifically to the Dockerfiles and scripts, please use the [GitHub issue tracker]([[ENTER_ISSUES_URL_HERE]]).
+For issues relating specifically to the Dockerfiles and scripts, please use the [GitHub issue tracker](../../issues).
 We welcome contributions following [our guidelines](CONTRIBUTING.md).
 
 # License

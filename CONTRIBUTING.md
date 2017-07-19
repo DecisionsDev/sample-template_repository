@@ -12,7 +12,7 @@ provided by GitHub.
 
 ## Is It Really a Support Issue
 
-If you aren't sure if your contribution is needed or necessary, please visit the [support forum][ml-users] before attempting to
+If you aren't sure if your contribution is needed or necessary, please visit the [support forum][forum] before attempting to
 submit a pull request or a ticket.
 
 ## Search Project Bug Base
@@ -24,7 +24,7 @@ enhancement, please open a new ticket before submitting your pull request.
 ## Discuss Non-Trivial Contributions with the Committers
 
 If your desired contribution is more than a non-trivial fix, you should discuss it on the
-[contributor's mailing list]([[FILL_EMAIL_HERE]]).  If you currently are not a member, you can request to be added.
+[contributor's mailing list][ml-users].  If you currently are not a member, you can request to be added.
 
 
 ## New features
@@ -140,17 +140,17 @@ layer of structure of how repositories can relate to each other.
 Once you have successfully forked your repository, you will need to clone it locally to your machine:
 
 ```bash
-$ git clone git@github.com:username/odm-ondocker.git
+$ git clone git@github.com:[[USERNAME]]/[[REPO_NAME]].git
 ```
 
-This will clone your fork to your current path in a directory named `odm-ondocker`.
+This will clone your fork to your current path in a directory named `[[REPO_NAME]]`.
 
 You should also setup the `upstream` repository.  This will allow you to take changes from the "master" repository
 and merge them into your local clone and then push them to your GitHub fork:
 
 ```bash
-$ cd odm-ondocker
-$ git remote add upstream git@github.com:lgrateau/odm-ondocker.git
+$ cd [[REPO_NAME]]
+$ git remote add upstream git@github.com:[[USERNAME]]/[[REPO_NAME]].git
 $ git fetch upstream
 ```
 
@@ -245,9 +245,9 @@ request.
 
 [help documentation]: http://help.github.com/send-pull-requests
 [bug database]: ../../issues
+[forum]: https://developer.ibm.com/answers/topics/ibmodm.html
 [ml-users]: mailto:odmdev_open_source_user@wwpdl.vnet.ibm.com
 [Creating a Pull Request]: https://help.github.com/articles/creating-a-pull-request
 [Fork a Repo]: https://help.github.com/articles/fork-a-repo
-[coding guidelines]: https://github.com/ibm-js/sdk/blob/master/GUIDELINES.md
 [interactive rebase]: http://git-scm.com/book/en/Git-Tools-Rewriting-History#Changing-Multiple-Commit-Messages
 [rebasing]: http://git-scm.com/book/en/Git-Branching-Rebasing
