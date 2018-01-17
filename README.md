@@ -21,4 +21,4 @@ We welcome contributions following [our guidelines](CONTRIBUTING.md).
 The Dockerfiles and associated scripts found in this project are licensed under the [Apache License 2.0](LICENSE).
 
 # Notice
-© Copyright IBM Corporation 2017.
+© Copyright IBM Corporation 2018.
